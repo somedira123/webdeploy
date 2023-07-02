@@ -2,6 +2,7 @@ S3 SUDO APT INSTALL AWSCLI -y
 aws s3 ls
 nano sample.txt
 aws s3 cp sample.txt s3://name-bucket/samplefromec2.txt
+mysql -h endpoint -u admin -p
 
 # Electronix-Website
 

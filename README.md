@@ -1,3 +1,8 @@
+S3 SUDO APT INSTALL AWSCLI -y
+aws s3 ls
+nano sample.txt
+aws s3 cp sample.txt s3://name-bucket/samplefromec2.txt
+
 # Electronix-Website
 
 In this project, we have an admin panel and user panel.
